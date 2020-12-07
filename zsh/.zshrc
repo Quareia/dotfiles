@@ -15,7 +15,6 @@ function _z() { _zlua "$@"; }
 antigen bundle git
 antigen bundle command-not-found 
 antigen bundle docker
-antigen bundle git-open # open in browser
 antigen bundle python
 antigen bundle extract
 antigen bundle colored-man-pages
@@ -30,6 +29,7 @@ antigen bundle colored-man-pages
 # antigen bundle systemd
 
 # Load bundles from external repos
+antigen bundle paulirish/git-open # open in browser
 antigen bundle skywind3000/z.lua # more faster than z.sh
 antigen bundle changyuheng/fz # fizzy z
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -37,9 +37,9 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
 
 antigen theme romkatv/powerlevel10k 
-#THEME=romkatv/powerlevel10k
-#antigen list | grep $THEME; if [ $? -ne 0 ]; then antigen theme $THEME; fi
+
 antigen apply
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -68,3 +68,7 @@ alias tk='tmux kill-sessions -t'
 
 alias vim='nvim'
 alias vi='nvim'
+
+alias dud='du -d 1 -h'
+alias duf='du -sh *'
+alias df='df -h'
