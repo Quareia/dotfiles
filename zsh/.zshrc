@@ -65,6 +65,7 @@ alias tl='tmux list-sessions'
 alias ta='tmux a -t'
 alias tn='tmux new -s'
 alias tk='tmux kill-sessions -t'
+alias td='tmux detach'
 
 alias vim='nvim'
 alias vi='nvim'
