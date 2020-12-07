@@ -1,0 +1,7 @@
+[user]
+	name = quareia
+	email = garyzhang195@gmail.com
+[pager]
+	branch = true
+[core]
+	compression = 0
