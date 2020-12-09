@@ -33,6 +33,8 @@ set ignorecase smartcase            " 搜索智能大小写
 se mouse+=a                         " 复制时不加行号
 set t_Co=256
 set termguicolors
+set clipboard=unnamed
+
 
 "============================= Plugins Pref ==============================
 let mapleader=","
