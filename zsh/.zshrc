@@ -64,7 +64,7 @@ alias grep='grep --color=auto'
 alias tl='tmux list-sessions'
 alias ta='tmux a -t'
 alias tn='tmux new -s'
-alias tk='tmux kill-sessions -t'
+alias tk='tmux kill-session -t'
 alias td='tmux detach'
 
 alias vim='nvim'
